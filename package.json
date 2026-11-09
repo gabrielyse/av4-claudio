@@ -1,0 +1,23 @@
+{
+  "name": "api-treinos-esportivos",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de treinos esportivos com carga e risco de sobrecarga",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "db:create": "sequelize-cli db:create",
+    "db:migrate": "sequelize-cli db:migrate",
+    "db:seed": "sequelize-cli db:seed:all"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "sequelize": "^6.37.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.5"
+  }
+}
